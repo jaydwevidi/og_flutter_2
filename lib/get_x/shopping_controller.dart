@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:html';
 
 import 'package:get/get.dart';
 import 'package:og_flutter_2/models/product.dart';
@@ -16,10 +15,10 @@ class ShoppingController extends GetxController {
 
   void getProductList() async {
     var mList = [
-      Product("iphone 13 Pro Max", 2021, 999.99, "discription"),
-      Product("iphone 12 Pro", 2020, 699.99, "discription 2222"),
-      Product("iphone 13 Pro Max", 2021, 999.99, "discription"),
-      Product("iphone 12 Pro", 2020, 699.99, "discription 2222"),
+      Product("iPhone 13 Pro Max", 2021, 999.00, "Very Good Phone and fast"),
+      Product("iPhone 12 Pro", 2020, 699.00, "Good camera and 8 GB Ram"),
+      Product("Macbook studio", 2021, 4999.99, "For Creative developers"),
+      Product("Nvedia 3090 Ti", 2020, 1699.99, "Mine Bitcoin for Trading"),
     ];
 
     await Future.delayed(Duration(seconds: 0));
